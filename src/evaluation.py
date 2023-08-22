@@ -31,7 +31,7 @@ def get_performance(
         recall : float
         f1_score : float
     """
-    # TODO: Compute metrics
+    # : Compute metrics
     #Use sklearn.metrics.accuracy_score
     accuracy = accuracy_score(y_test, predictions)
     #Use sklearn.metrics.precision_score
@@ -44,7 +44,7 @@ def get_performance(
     report = classification_report(y_test, predictions, labels=labels)
 
 
-    # TODO: Get Confusion Matrix, use sklearn.metrics.confusion_matrix
+    # : Get Confusion Matrix, use sklearn.metrics.confusion_matrix
     cm = confusion_matrix(y_test, predictions)
 
     # Convert Confusion Matrix to pandas DataFrame, don't change this code!

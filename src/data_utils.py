@@ -60,7 +60,7 @@ def split_data(
         y_test : pd.Series
             List labels for test
     """
-    # TODO
+    # 
     X_train,y_train =  train.drop('positive', axis=1), train['positive']
     X_test,y_test = test.drop('positive', axis=1),  test['positive']
     return X_train,y_train,X_test,y_test

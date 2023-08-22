@@ -35,7 +35,7 @@ def remove_html_tags(text: str) -> str:
         str
             Output string.
     """
-    # TODO
+    # 
 
     soup = BeautifulSoup(text, 'html.parser')
     cleaned_text = soup.get_text()
@@ -57,7 +57,7 @@ def stem_text(text: str) -> str:
         str
             Output string.
     """
-    # TODO
+    # 
     stemmer= porter.PorterStemmer()
     tokens= word_tokenize(text)
     st_tokens= [stemmer.stem(token) for token in tokens]
@@ -81,7 +81,7 @@ def lemmatize_text(text: str) -> str:
         str
             Output string.
     """
-    # TODO
+    # 
     doc = nlp(text)
     lemmatized_tokens = [token.lemma_ for token in doc]
     return ' '.join(lemmatized_tokens)
