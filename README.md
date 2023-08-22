@@ -11,8 +11,6 @@ Basically this is a basic sentiment analysis problem, as in this case, consists 
 
 In this project, we will work exclusively with two files: `movies_review_train_aai.csv` and `movies_review_test_aai.csv`.
 
-You don't have to worry about downloading the data, it will be automatically downloaded from the `AnyoneAI - Sprint Project 05.ipynb` notebook in `Section 1. Get the data`.
-
 This is a dataset for **binary sentiment classification**.
 
 ## Technical aspects
